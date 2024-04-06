@@ -1,9 +1,124 @@
-<mxfile host="app.diagrams.net" modified="2024-04-06T23:13:42.527Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.2.2" etag="JNjmLXks3E7MWM8f1pN9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-06T23:31:39.452Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Ck5zVGCq5kAQ95_YXYgs" version="24.2.2" type="github">
   <diagram name="Page-1" id="au8R7qGuQvYielwcS9bg">
-    <mxGraphModel>
+    <mxGraphModel dx="1781" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JAhSerptLrVkAPEbvBw2-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JAhSerptLrVkAPEbvBw2-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-440" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-1" value="GateWay 1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JAhSerptLrVkAPEbvBw2-2" target="JAhSerptLrVkAPEbvBw2-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JAhSerptLrVkAPEbvBw2-2" target="JAhSerptLrVkAPEbvBw2-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-2" value="GateWay 2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JAhSerptLrVkAPEbvBw2-3" target="JAhSerptLrVkAPEbvBw2-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-3" value="GateWay 3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-730" y="70" as="sourcePoint" />
+            <mxPoint x="-660" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-740" y="199.5" as="sourcePoint" />
+            <mxPoint x="-670" y="199.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-740" y="379.5" as="sourcePoint" />
+            <mxPoint x="-670" y="379.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-9" value="User 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-10" value="User 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="185" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-11" value="User 3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="365" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JAhSerptLrVkAPEbvBw2-12" target="JAhSerptLrVkAPEbvBw2-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-12" value="Session Microservice" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-13" value="User-GateWay mapping" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="40" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-14" value="Message Queue" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JAhSerptLrVkAPEbvBw2-12" target="JAhSerptLrVkAPEbvBw2-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.013;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JAhSerptLrVkAPEbvBw2-14" target="JAhSerptLrVkAPEbvBw2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JAhSerptLrVkAPEbvBw2-19" target="JAhSerptLrVkAPEbvBw2-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-19" value="Received" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-21" value="Send MEssage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.988;entryY=0.738;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JAhSerptLrVkAPEbvBw2-12" target="JAhSerptLrVkAPEbvBw2-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-23" value="Sent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-25" value="Read" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-26" value="Uses TCP/IP Websockets&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="410" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JAhSerptLrVkAPEbvBw2-27" target="JAhSerptLrVkAPEbvBw2-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-27" value="Last seen service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-29" value="get last seen info of A" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-30" value="Info" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="250" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-32" value="When user performs any operation, its timestamp is stored in&amp;nbsp; DB.&lt;br&gt;Buffer time is 1s. Current time - timestamp &amp;lt;1 then online" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="190" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JAhSerptLrVkAPEbvBw2-34" target="JAhSerptLrVkAPEbvBw2-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-370" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-34" value="&lt;b&gt;Parser/Unparser reduces the load on gateway and takes care of conversion from emessage to object&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-549" y="350" width="99" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JAhSerptLrVkAPEbvBw2-37" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Design Whatsapp&lt;/h1&gt;&lt;div&gt;Messaging apps make use of peer-peer network for two way communication&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="490" width="180" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
