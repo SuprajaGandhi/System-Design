@@ -1,9 +1,138 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="Page-1" id="LiwQLiawBWJsea35YF7Z">
-    <mxGraphModel>
+    <mxGraphModel dx="946" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-1" value="Functional Requirements&lt;br&gt;&lt;br&gt;1. Store and get Image&lt;div&gt;2. Like &amp;amp; Comment&lt;br&gt;3. Notifications&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="30" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-2" value="Non-Functional Requirements&lt;br&gt;&lt;br&gt;1. Low Latency&lt;div&gt;2. 2B Daily Active users (DAU)&lt;br&gt;3.&amp;nbsp; 20,000 Concurrent Users&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="170" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-4" value="Posts" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="320" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-5" value="PostID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8iw8zskgPgy7BDgNxNmZ-4">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-6" value="UserID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8iw8zskgPgy7BDgNxNmZ-4">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-7" value="CreatedTime&lt;br&gt;Activity ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8iw8zskgPgy7BDgNxNmZ-4">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-8" value="Comment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="465" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-9" value="PostID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8iw8zskgPgy7BDgNxNmZ-8">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-10" value="UserID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8iw8zskgPgy7BDgNxNmZ-8">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-12" value="Activity" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="610" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-13" value="ActivityID&lt;div&gt;PostID&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8iw8zskgPgy7BDgNxNmZ-12">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-14" value="Number of Likes =&amp;gt; +1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8iw8zskgPgy7BDgNxNmZ-12">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8iw8zskgPgy7BDgNxNmZ-16" target="8iw8zskgPgy7BDgNxNmZ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-16" value="Mobile client" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mobile_client;" vertex="1" parent="1">
+          <mxGeometry x="120" y="420" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8iw8zskgPgy7BDgNxNmZ-17" target="8iw8zskgPgy7BDgNxNmZ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-17" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Application_Gateway.svg;" vertex="1" parent="1">
+          <mxGeometry x="230" y="425" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-18" value="GetPosts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-20" value="Get Followees" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="8iw8zskgPgy7BDgNxNmZ-21" target="8iw8zskgPgy7BDgNxNmZ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8iw8zskgPgy7BDgNxNmZ-21" target="8iw8zskgPgy7BDgNxNmZ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-21" value="UserFeed Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-22" value="Likes Table" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="730" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-23" value="Type : Post/Comment" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8iw8zskgPgy7BDgNxNmZ-22">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-24" value="Active" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8iw8zskgPgy7BDgNxNmZ-22">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-25" value="Parent_ID&lt;div&gt;ActivityID&lt;/div&gt;&lt;div&gt;UserID&lt;br&gt;TimeStamp&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8iw8zskgPgy7BDgNxNmZ-22">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8iw8zskgPgy7BDgNxNmZ-26" target="8iw8zskgPgy7BDgNxNmZ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-26" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.application_load_balancer;" vertex="1" parent="1">
+          <mxGeometry x="310" y="423" width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-27" value="Followers" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="400" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-28" value="FolloweeID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8iw8zskgPgy7BDgNxNmZ-27">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-29" value="FollowerID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8iw8zskgPgy7BDgNxNmZ-27">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-31" value="Partition Key is required when sharding.&lt;br&gt;Dynamo DB is best here&lt;br&gt;Global secondary Index(GSI) with PK on FolloweeID is better here&lt;br&gt;Partition can happen based on region, index range, etc" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="530" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-32" value="Followees" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="670" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-33" value="FolloweeID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8iw8zskgPgy7BDgNxNmZ-32">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-34" value="FollowerID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8iw8zskgPgy7BDgNxNmZ-32">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-35" value="Reverse Lookup can be used here" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="775" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-36" value="We could go to Followees table and get the posts from there by it would have high latency.&lt;br&gt;Instead we could use cache to add posts to the queue.&lt;br&gt;This is done only for active users" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="600" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-37" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Cache.svg;" vertex="1" parent="1">
+          <mxGeometry x="660" y="546" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-38" value="Store upto 20 post as soons as the one post something" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="585" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-42" value="Load Balancer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="304" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-46" value="Application Gateway:&lt;div&gt;Handles authentication Token&lt;br&gt;Security (like firewall for sql injection)&lt;br&gt;Modsec is an example&lt;br&gt;NGNIX acted as WAF&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="465" width="160" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-47" value="Instead of Load balancing routing requests everytime snapshots can be stored" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="390" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-48" value="When the person I follow posts something, I have to be notified.&lt;br&gt;&lt;br&gt;Push : Server sends to clients. For celebrities it causes fanning out. Batch processing can be applied&lt;br&gt;&lt;br&gt;Pull: Client polls in periodic interval and often better" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="690" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8iw8zskgPgy7BDgNxNmZ-49" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Design Instagram&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="230" width="235" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
