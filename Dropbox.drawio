@@ -1,9 +1,69 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="Page-1" id="qjQhUiNkGIXk8sPegivS">
-    <mxGraphModel>
+    <mxGraphModel dx="1592" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Dropbox&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="234" y="10" width="156" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-2" value="&lt;b&gt;Functional requirements:&lt;/b&gt;&lt;div&gt;Upload a file&lt;/div&gt;&lt;div&gt;Download a file&lt;/div&gt;&lt;div&gt;Sync data&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="637" y="40" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-3" value="&lt;b&gt;Non Functional requirements&lt;/b&gt;:&lt;div&gt;Availability &amp;gt;&amp;gt; Consistency&lt;br&gt;low latency for uploads and downloads&lt;br&gt;Data Integrity (We want it to true not immediately but eventually that is why I didn&#39;t focus on consistency&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Resume uploads&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="170" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-4" value="Core Entities" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="300" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-5" value="File store in S3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KwXzedkXwJMO5qFz7Lfk-4">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-6" value="File Metadata" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KwXzedkXwJMO5qFz7Lfk-4">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-7" value="User (Not required to deep dive)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KwXzedkXwJMO5qFz7Lfk-4">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KwXzedkXwJMO5qFz7Lfk-8" target="KwXzedkXwJMO5qFz7Lfk-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="160" width="80" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-9" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="180" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="KwXzedkXwJMO5qFz7Lfk-10" target="KwXzedkXwJMO5qFz7Lfk-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-10" value="Amazon API Gateway" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="1">
+          <mxGeometry x="30" y="200" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-11" value="File Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-12" value="API:&lt;div&gt;POST/File - req File&amp;amp;File Metadata&amp;nbsp; response s3 file url&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GET/fileid&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="420" width="590" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-15" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="410" y="90" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-16" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="420" y="240" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-19" value="File Metadata" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="500" y="230" width="110" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-20" value="File ID" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="KwXzedkXwJMO5qFz7Lfk-19">
+          <mxGeometry y="26" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-21" value="Name" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="KwXzedkXwJMO5qFz7Lfk-19">
+          <mxGeometry y="56" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-22" value="Mime Type&lt;div&gt;Size&lt;/div&gt;&lt;div&gt;s3 link&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="KwXzedkXwJMO5qFz7Lfk-19">
+          <mxGeometry y="86" width="110" height="144" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
