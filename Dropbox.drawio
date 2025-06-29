@@ -61,7 +61,7 @@
         <mxCell id="KwXzedkXwJMO5qFz7Lfk-15" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
           <mxGeometry x="360" y="80" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="KwXzedkXwJMO5qFz7Lfk-16" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-16" value="Dynamo DB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="370" y="310" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KwXzedkXwJMO5qFz7Lfk-19" value="File Metadata" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
