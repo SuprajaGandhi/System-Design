@@ -106,7 +106,7 @@
         <mxCell id="KwXzedkXwJMO5qFz7Lfk-37" value="Get all changes since last 60 seconds" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="230" y="290" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KwXzedkXwJMO5qFz7Lfk-38" value="Uploading 5GB file with 100Mbps takes (5*10^9*8)/(100*10^6)&amp;nbsp; =&amp;gt; 1 hr 20 mins&lt;br&gt;[1 byte =&amp;gt; 8 bits]&lt;div&gt;Upload chunks of file - Divide 5GB into 5MB&lt;br&gt;Finger print it and use it as id&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="KwXzedkXwJMO5qFz7Lfk-38" value="Uploading 5GB file with 100Mbps takes (5*10^9*8)/(100*10^6)&amp;nbsp; =&amp;gt; 1 hr 20 mins&lt;br&gt;[1 byte =&amp;gt; 8 bits]&lt;div&gt;Upload chunks of file - Divide 5GB into 5MB&lt;br&gt;Finger print it and use it as id because we don&#39;t want to query DB for chunk ids&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="230" y="380" width="270" height="210" as="geometry" />
         </mxCell>
         <mxCell id="KwXzedkXwJMO5qFz7Lfk-43" value="Get temp url from s3 and upload directly" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
